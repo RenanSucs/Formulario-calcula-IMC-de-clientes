@@ -24,18 +24,18 @@ for( var i = 0; i < pacientes.length; i++){
     if(peso <= 0 || peso > 100){
         pesoEhValido = false;
         imc.textContent = "Peso Inválido";
+        paciente.classList.add("paciente-invalido");
     }
 
     if(altura <= 0 || altura >= 3.00){
         alturaEhValida = false;
         imc.textContent = "Altura Inválido";
+        paciente.classList.add("paciente-invalido");
     }
 
     if(pesoEhValido && alturaEhValida){
         var result = peso / (altura * altura);
         imc.textContent = result.toFixed(2);
-    }else{
-        imc.textContent = "Peso e/ou altura inválidos";
     }
 }
 
