@@ -33,7 +33,7 @@ for( var i = 0; i < pacientes.length; i++){
 
     if(pesoEhValido && alturaEhValida){
         var result = peso / (altura * altura);
-        imc.textContent = result;
+        imc.textContent = result.toFixed(2);
     }else{
         imc.textContent = "Peso e/ou altura inválidos";
     }
