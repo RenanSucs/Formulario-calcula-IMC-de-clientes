@@ -110,7 +110,8 @@ button{
 	width: 20%;
     display: block;
     clear: both;
-    margin: 10px 0px;
+	margin: 10px 0px;
+	text-align: center;
 
 }
 
@@ -144,4 +145,19 @@ button[disabled=disabled], button:disabled {
 .fadeOut{
 	opacity: 0;
 	transition: .5s;
+}
+
+#filtrar-tabela{
+	height: 35px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.invisivel{
+	display: none;
+}
+
+.bto-principal{
+	text-align: center;
+	padding: 10px;
 }

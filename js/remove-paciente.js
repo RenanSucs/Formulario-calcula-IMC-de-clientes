@@ -7,10 +7,6 @@ tabelaPacientes.addEventListener("dblclick", function(e){
     },500);
 });
 
-
-
-
-
 /*var pacientes = document.querySelectorAll(".paciente")
 
 pacientes.forEach(function removePacientes(paciente){
